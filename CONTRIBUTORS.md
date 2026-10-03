@@ -4,7 +4,7 @@ A massive thank you to the open source community helping make `yasbd` more accur
 
 | Name | Role |
 |------|------|
-| **[@1cbyc](https://github.com/1cbyc)** | Coordinate direction abbreviation and Spanish decimal unit boundary fixes |
+| **[@1cbyc](https://github.com/1cbyc)** | Coordinate direction, multilingual `etc.` abbreviations and Spanish decimal unit boundary fixes |
 | **[@AK-Lmn](https://github.com/AK-Lmn)** | Spanish `párrf.` and `párr.` reference abbreviations |
 | **[@AshSgDe29071999](https://github.com/AshSgDe29071999)** | Combined same-module imports in `__init__.py`; named cleaning-pipeline helpers for testability |
 | **[@be-student](https://github.com/be-student)** | Burmese double-comma boundaries; shared numeric-context tel/fax and Portuguese aprox abbreviation fixes |

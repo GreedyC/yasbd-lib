@@ -209,6 +209,9 @@ def test_rule_cache_lru(en_detector):
         "<b>Run!</b>| He yelled with all his strenght.",
         "that is so <sub>cool</sub>.| Did you try it?",
 
+        # Reference abbreviations before a parenthetical continuation (fix for #356)
+        "Items A, B, etc. (reference), and more.",
+
         # Multi-digit vertical list items
         "12. The first item.\n|13. The second item.",
         "    A12. The first item.\n|    B13. The second item.",

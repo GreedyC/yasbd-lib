@@ -27,7 +27,7 @@ class KkRules(Rules):
 
     REFERENCE_ABBRVS = Rules.REFERENCE_ABBRVS | {
         "б", "бб", "бет", "т", "тт", "том", "бап",
-        "тарм", "ж.б", "т.с.с", "см", "басп",
+        "тарм", "ж.б", "т.с.с", "см", "басп", "т.б",
     }
 
     SECTION_MARKERS = Rules.SECTION_MARKERS | {

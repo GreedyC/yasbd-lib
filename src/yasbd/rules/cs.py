@@ -32,7 +32,7 @@ class CsRules(Rules):
         "odst", "par", "čl", "č", "čj", "s", "str",
         "vyd", "sv", "t", "kap", "obr", "graf",
         "zob", "porov", "pozn", "písm", "roč",
-        "hod",
+        "hod", "atd",
 
         # Legal Reference Identifiers
         "zák", "nař", "usn", "vyhl", "pol", "pov", "pod",

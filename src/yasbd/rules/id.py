@@ -33,7 +33,7 @@ class IdRules(Rules):
 
     REFERENCE_ABBRVS = Rules.REFERENCE_ABBRVS | {
         "hlm", "hal", "bab", "jil", "lamp", "ttd", "stt",
-        "cet", "terj", "dok", "pas", "pk", "tgl",
+        "cet", "terj", "dok", "pas", "pk", "tgl", "dll",
     }
 
     SECTION_MARKERS = Rules.SECTION_MARKERS | {

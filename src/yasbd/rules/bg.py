@@ -23,7 +23,7 @@ class BgRules(RuRules):
 
     REFERENCE_ABBRVS = RuRules.REFERENCE_ABBRVS | {
         "бр", "бел", "и др", "и под", "ал", "изд", "фиг",
-        "табл", "чл",
+        "табл", "чл", "и т.н",
     }
 
     SECTION_MARKERS = RuRules.SECTION_MARKERS | {

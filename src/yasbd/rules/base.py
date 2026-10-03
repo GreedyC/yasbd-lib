@@ -77,7 +77,7 @@ class Rules:
 
     REFERENCE_ABBRVS = {
         # Publishing / Documents / Manuscripts
-        "app", "apps", "cf", "cod", "diag", "ext", "fig",
+        "app", "apps", "cf", "cod", "diag", "etc", "ext", "fig",
         "figs", "fol", "illus", "l", "ll", "ms", "mss", "p",
         "pag", "pp", "pt", "pts", "ref", "refs", "tab", "tbl",
         "tbls", "v", "vol", "vols",

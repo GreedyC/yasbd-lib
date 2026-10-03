@@ -31,7 +31,7 @@ class NlRules(DeRules):
         "bijl", "ca", "cf", "ed", "vert", "id",
 
         # Legal, Corporate, and Formal Citation Markers
-        "b.w", "gem", "coll", "hr", "c.q", "ov", "vp", "d.d",
+        "b.w", "gem", "coll", "hr", "c.q", "ov", "vp", "d.d", "enz",
     }
 
     SECTION_MARKERS = Rules.SECTION_MARKERS | {
