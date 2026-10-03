@@ -266,7 +266,8 @@ detector = BoundaryDetector(
     # hook: Optional per-paragraph post-processing callback.
     # Receives a dict with ``text``, ``lang``, ``boundaries`` and``paragraph_index`` keys;
     # mutate ``boundaries`` in place to add or remove sentence boundaries.
-    hook: Callable[[HookContext], None] | None = None,
+    # Defaults to None.
+    hook = None,
 
     # Enable verbose logging. Defaults to `False`.
     verbose=True,
