@@ -15,7 +15,7 @@ class AfRules(NlRules):
     REFERENCE_ABBRVS = NlRules.REFERENCE_ABBRVS | {
         # Bibliographical, Document, and Page References
         "a.w", "bg", "bl", "byl", "hers", "red", "samest",
-        "uitg",
+        "uitg", "ens",
 
         # Unique Afrikaans legal and cross-referencing markers
         "kol", "vg", "verg", "hfst"

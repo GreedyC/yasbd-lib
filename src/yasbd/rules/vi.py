@@ -21,7 +21,7 @@ class ViRules(Rules):
     }
 
     REFERENCE_ABBRVS = Rules.REFERENCE_ABBRVS | {
-        "tr", "ch", "q", "t", "m", "stt", "h", "nxb"
+        "tr", "ch", "q", "t", "m", "stt", "h", "nxb", "v.v"
     }
 
     SECTION_MARKERS = Rules.SECTION_MARKERS | {

@@ -23,7 +23,7 @@ class ArRules(Rules):
     }
 
     REFERENCE_ABBRVS = Rules.REFERENCE_ABBRVS | {
-        "ص", "ج", "مج", "ت", "ط", "ع", "ب", "ح", "خ", "ف", "ق", "ن",
+        "ص", "ج", "مج", "ت", "ط", "ع", "ب", "ح", "خ", "ف", "ق", "ن", "إلخ",
     }
 
     SECTION_MARKERS = Rules.SECTION_MARKERS | {

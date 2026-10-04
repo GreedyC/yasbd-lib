@@ -20,16 +20,33 @@ classifiers = [
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
   "Programming Language :: Python :: 3.14",
-  "Topic :: Text Processing",
+  "Topic :: Text Processing :: General",
+  "Topic :: Text Processing :: Linguistic",
+  "Topic :: Scientific/Engineering :: Information Analysis",
   "Topic :: Scientific/Engineering :: Artificial Intelligence",
   "Topic :: Software Development :: Libraries :: Python Modules",
   "Typing :: Typed"
 ]
 
 keywords = [
-  "sentence-segmentation", "sentence-boundary-detection", "sbd", "sentence-splitting",
-  "sentence-splitter", "multilingual", "text processing", "text-splitting",
-  "natural language processing", "nlp"
+    "multilingual",
+    "natural language processing",
+    "nlp",
+    "rag",
+    "rule based",
+    "sbd",
+    "sentence",
+    "sentence boundary",
+    "sentence boundary detection",
+    "sentence segmentation",
+    "sentence splitter",
+    "sentence splitting",
+    "sentences",
+    "spacy pipeline",
+    "stream processing",
+    "text mining",
+    "text processing",
+    "text splitting",
 ]
 
 dependencies = [

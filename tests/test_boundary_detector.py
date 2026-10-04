@@ -209,6 +209,9 @@ def test_rule_cache_lru(en_detector):
         "<b>Run!</b>| He yelled with all his strenght.",
         "that is so <sub>cool</sub>.| Did you try it?",
 
+        # Reference abbreviations before a parenthetical continuation (fix for #356)
+        "Items A, B, etc. (reference), and more.",
+
         # Multi-digit vertical list items
         "12. The first item.\n|13. The second item.",
         "    A12. The first item.\n|    B13. The second item.",
@@ -236,6 +239,9 @@ def test_rule_cache_lru(en_detector):
 
         # Scientific dotted abbreviations (fix for #357)
         "The model estimates the c.d.f. F.| The results are discussed w.r.t. V-TSMixer.",
+
+        # reference abbrv + roman-numeral-like next word splits correctly (fix for #362)
+        "I don't know why he mentioned that ref.| It was clearly fake.",
     ],
 )
 def test_universal_regression(en_detector, marked_text):
