@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Scientific dotted abbreviations** ([#358](https://github.com/speedyk-005/yasbd-lib/pull/358)): Preserve `c.d.f.` before mathematical references and `w.r.t.` before sentence-internal text, including uppercase variants.
+
 - **Backtick-delimited quote sentence boundaries** ([#348](https://github.com/speedyk-005/yasbd-lib/pull/348)): Detect sentence boundaries after single/double backtick-delimited and doubled-apostrophe quoted text while preserving ordinary contractions.
 
 ...
