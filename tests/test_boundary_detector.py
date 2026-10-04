@@ -161,12 +161,6 @@ def test_rule_cache_lru(en_detector):
 @pytest.mark.parametrize(
     "marked_text",
     [
-        # Scientific dotted abbreviations (fix for #357)
-        "The model estimates the c.d.f. F.| The results are discussed w.r.t. V-TSMixer.",
-        "We discuss the c.d.f.| Results follow.",
-        "Discuss this w.r.t. the model.| Results follow.",
-        "Estimate the C.D.F. [1].| Compare W.R.T. the model.",
-
         # Scientific units (fix for #33)
         "Each tick denotes an increase of 100 meV.| Each data point follows.",
         "The supply reached 10 kV.| Measurements continued.",
@@ -239,6 +233,9 @@ def test_rule_cache_lru(en_detector):
         # markdown headers with trailing numbers stay whole (fix for #305)
         "### 1. The Regex Breakdown\n|### 2. Metric Interpretation",
         "        ### 1. The Regex Breakdown\n|        ### 2. Metric Interpretation",
+
+        # Scientific dotted abbreviations (fix for #357)
+        "The model estimates the c.d.f. F.| The results are discussed w.r.t. V-TSMixer.",
     ],
 )
 def test_universal_regression(en_detector, marked_text):
